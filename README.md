@@ -17,10 +17,10 @@
     - __Target column__, the filtering is done based on this column.
 
 - __tsf__: _int or float, defaul-t=1_
-    - __Top scaling factor__, the quantity with which the median distance must be multplied above the centre plane.
+    - __Top scaling factor__, the quantity with which the median distance must be multiplied above the centre plane.
 
 - __bsf__ : _int or float, default=1_
-    - __Bottom scaling factor__, the quantity with which the median distance must be multplied above the centre plane.
+    - __Bottom scaling factor__, the quantity with which the median distance must be multiplied below the centre plane.
 ---
 ## Installation
 ```pip install vcosmos```
