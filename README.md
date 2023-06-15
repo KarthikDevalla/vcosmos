@@ -1,4 +1,4 @@
-# __vcosmos.spatial_domain.anomaly__.O_Seive
+# __spatial_domain.anomaly__.O_Seive
 
 ---
 ## class __O_seive__(data, column, tsf=1, bsf=1)
