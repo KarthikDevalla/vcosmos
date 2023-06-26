@@ -1,3 +1,4 @@
+# New release available at [PypI -Version 1.1.0](https://pypi.org/project/vcosmos/) 
 # __spatial_domain.anomaly__.O_Seive
 
 ---
