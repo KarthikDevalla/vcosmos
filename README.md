@@ -1,5 +1,6 @@
 # New release available at [PypI -Version 1.1.0](https://pypi.org/project/vcosmos/) 
 # __spatial_domain.anomaly__.O_Seive
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
 ## class __O_seive__(data, column, tsf=1, bsf=1)
