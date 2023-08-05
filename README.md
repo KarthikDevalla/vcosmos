@@ -1,12 +1,12 @@
 # New release available at [PypI -Version 1.1.0](https://pypi.org/project/vcosmos/) 
-# __spatial_domain.anomaly__.O_Seive
+# __spatial_domain.anomaly__.O_Sieve
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ---
-## class __O_seive__(data, column, tsf=1, bsf=1)
+## class __O_sieve__(data, column, tsf=1, bsf=1)
 ---
 
-### ___O_Seive___ is an outlier detection algorithm that utilizes a 3D projection of data points. It calculates distances of data points from a centre point in the 3D space, based on the squared values of the target column. The algorithm then determines upper and lower distance thresholds using a median-based approach. Data points that fall outside these thresholds are considered outliers. This class also provides methods for visualizing the data in the 3D space. 
+### ___O_Sieve___ is an outlier detection algorithm that utilizes a 3D projection of data points. It calculates distances of data points from a centre point in the 3D space, based on the squared values of the target column. The algorithm then determines upper and lower distance thresholds using a median-based approach. Data points that fall outside these thresholds are considered outliers. This class also provides methods for visualizing the data in the 3D space. 
   
 
 ---
@@ -44,9 +44,9 @@ print(df.head)
 
 # [5 rows x 12 columns]
 
-seive= O_Seive(df,'CO2 Emissions(g/km)',tsf=4.5,bsf=2)
+seive= O_Sieve(df,'CO2 Emissions(g/km)',tsf=4.5,bsf=2)
 clean_data=seive.filtered_data()
-plot=seive.hcps_plot()
+plot=sieve.hcps_plot()
 print(clean_data.head())
 
 # Filtering Initiated....
