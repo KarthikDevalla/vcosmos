@@ -4,7 +4,7 @@ import inspect
 import matplotlib.pyplot as plt
 
 
-class O_Seive:
+class O_Sieve:
 	def __init__(self, data, column, tsf=1, bsf=1):
 	
 		if len(inspect.signature(O_Seive.__init__).parameters)-1 !=4:
